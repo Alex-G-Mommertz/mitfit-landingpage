@@ -1,5 +1,8 @@
 <template>
-  <v-row justify="center">
+  <div     
+  class="d-flex pa-2"
+    outlined
+    tile>
     <v-dialog
       v-model="dialog"
       persistent
@@ -110,7 +113,7 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-  </v-row>
+  </div>
 </template>
 
 <script>

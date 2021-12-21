@@ -17,6 +17,12 @@
         <h4 class="subheading">
           Build your application today!
         </h4>
+              <v-card>
+        <v-card-title class="headline d-flex">
+          <h2>40 Personen gesucht für unser</h2>
+           <h1 class="text-center">5 WOCHEN-ABNEHMPROGRAMM!</h1>
+        </v-card-title>
+      </v-card>
       </v-col>
     </v-row>
   </v-parallax>

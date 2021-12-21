@@ -1,10 +1,13 @@
 <template>
   <v-app dark>
 
-    <v-app-bar :clipped-left="clipped" fixed app>
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
+    <v-app-bar fixed>
+      <v-row justify="center" align="center">
+      <v-col cols="12" sm="12" md="8" class="d-flex justify-space-between" flat tile>
+      <VuetifyLogo />
       <PopForm />
+      </v-col>
+      </v-row>
     </v-app-bar>
     <v-main>
       <v-container
@@ -22,6 +25,7 @@
 
 import PopForm from "../components/form.vue"
 
+
 export default {
   name: 'DefaultLayout',
   components: {
@@ -29,3 +33,5 @@ export default {
  } 
 }
 </script>
+
+
